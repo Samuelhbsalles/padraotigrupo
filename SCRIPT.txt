@@ -1,0 +1,156 @@
+    <!----
+                <option value="Div8">Chips</option>
+                <option value="Div9">Usuários</option>
+                <option value="Div10">Grupos</option>
+                <option value="Div11">Modelos</option>
+                <option value="Div12">Assinaturas</option>
+                -->
+
+<!----
+        <div class="Div8">
+            <table>
+                <tr>
+                    <th>
+                        Serviço
+                    </th>
+                    <th>
+                        Operadora
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                      Chips
+                    </td>
+                    <td>
+                        TIM
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="Div9">
+            <table>
+                <tr>
+                    <th>
+                        Nome
+                    </th>
+                    <th>
+                        Nome no Sistema
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                      Samuel Bueno
+                    </td>
+                    <td>
+                        SAMUELB
+                    </td>
+                </tr>
+            </table>
+        </div>  
+    <div class="Div10">
+        <strong> Observação</strong><br>
+        Sempre que um e-mail for criado incluir o colaborador no Grupo de e-mails do Grupo Flamboyant e da unidade a qual o mesmo foi contratado. <br>
+        <br>
+        Quando for um e-mail do Memorial Garden somente incluir no Grupo de  e-mails da unidade e não incluir no Grupo de e-mails do Grupo Flamboyant
+    </div>
+
+    <div class="Div11">
+        <table>
+            <tr>
+                <th>
+                    
+                    Unidades Grupo
+                </th>
+                <th>
+                    Envio como
+                </th>
+                <th>
+                    Login no E-mail
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Staff
+                </td>
+                <td>
+                   Fgrupo
+                </td>
+                <td>
+                    Plano <br> 
+                    Flamboyant
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    CMPH
+                </td>
+                <td>
+                    Parque Hortolândia
+                </td>
+                <td>
+                    Plano <br> 
+                    Flamboyant
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Plano
+                </td>
+                <td>
+                    Plano Flamboyant
+                </td>
+                <td width ="50%">
+                    Plano <br> 
+                    Flamboyant
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Memorial <br> 
+                    Garden
+                </td>
+                <td>
+                    Memorial Garden
+                </td>
+                <td>
+                   Fgrupo
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    FMC
+                </td>
+                <td>
+                    Fgrupo
+                </td>
+                <td>
+                    Plano <br>
+                    Flamboyant
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Colina
+                </td>
+                <td>
+                    Fgrupo
+                </td>
+                <td>
+                    Plano <br> 
+                    Flamboyant
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="Div12">
+       <br><strong> Gerência / Supervisão / Diretores / Operação</strong><br>
+       <img src="GRUPO - PRISCILA.jpg" alt="" width="40%" height="40%"><br>
+
+       <br><strong>Memorial Garden = Solicitar ao Wagner </strong><br>
+        Contato: 22 99936-7284 <br>
+       
+       <br>
+       <img src="memorialassinatura.jpeg" alt="" width="50%" height="50%">
+
+    </div>
+-->

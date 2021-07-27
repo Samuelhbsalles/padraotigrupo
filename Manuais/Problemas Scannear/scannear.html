@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Padrão TI</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+  <link  rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"  crossorigin="anonymous">
+
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="sidebar">
+        <h2>Padrão <br> 
+            <br> TI
+        </h2>
+        <ul>
+          <li><a href="./../../index.html" target="_self"><i class="fas fa-home"></i>Inicio</a></li>
+          <li><a href="./../../sistema.html" target="_self"><i class="fas fa-user"></i>Sistema</a></li>
+          <li><a href="./../../email.html" target="_self"><i class="fas fa-address-card"></i>E-mail</a></li>
+          <li><a href="./../../cameras.html" target="_self"><i class="fas fa-video"></i>Câmeras</a></li>
+          <li><a href="./../../impressora.html" target="_self"><i class="fas fa-sim-card"></i>Impressora</a></li>
+          <li><a href="./../../notebookdesk.html" target="_self"><i class="fas fa-laptop-code"></i>Notebook/Desktop</a></li>
+          <li><a href="./../../telefoniafixa.html" target="_self"><i class="fas fa-phone-alt"></i>Telefonia Fixa</a></li>
+          <li><a href="./../../paineldesenha.html" target="_self"><i class="fas fa-book"></i>Painel de senha</a></li>
+          <li><a href="./../../padraoequip.html" target="_self"><i class="fas fa-mouse"></i>Padrão de Equipamentos</a></li>
+          <li><a href="./../../gestao.html" target="_self"><i class="fas fa-sitemap"></i>Gestão</a></li>
+      </ul> 
+        <!--
+        <div class="social_media">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      -->
+    </div>
+    <div class="main_content">
+        <div class="header"> Seja bem vindo ao TI</div>  
+        <div class="scanner">
+          <h1>
+            Manual - Scanner
+          </h1>
+            <ul>
+                <li>
+                  1ºPasso: Configuração do scanner Brother.<br>
+                  Para que não tenha problema de comunicação entre o scanner da impressora Brother e a máquina, temos que fazer uma configuração no Firewall para liberação de portas UDP. 
+                  Entre no “Painel de Controle”.  Clique em “Windows Defender Firewall”                   
+                </li>
+            </ul>
+            <div class="img102">
+                <img src="img1.png" alt="" width="65%" height="65%"> 
+            </div>
+            <ul>
+                <li>
+                  2º Passo: Acessando o Firewall...
+                  Após clique em “Configurações Avançadas”                  
+                </li>
+            </ul>
+            <div class="img103">
+                <img src="img2.png" alt="" width="65%" height="65%">
+            </div>
+            <ul>
+                <li>
+                  3ºPasso: Criando a regra
+                  Quando abrir a tela do Firewall, vá em “Regras de Entrada”.                   
+                </li>
+            </ul>
+            <div class="img104">
+                <img src="img3.png" alt="" width="65%" height="65%">
+            </div>
+            <ul>
+                <li>
+                  Clique em “Nova Regra"
+                </li>
+            </ul>
+            <div class="img105">
+                <img src="img4.png" alt="" width="65%" height="65%">
+            </div>
+            <ul>
+                <li>
+                  Com a janela aberta, vamos criar a Regra. Aqui selecionamos o tipo da Regra. Selecione a opção “Porta”. 
+                </li>
+            </ul>
+            <div class="img105">
+                <img src="img5.png" alt="" width="65%" height="65%">
+            </div>
+            <ul>
+                <li>
+                  A regra vai ser para portas “UDP”. E as “Portas locais especificas” que vão ser liberadas serão: 37, 137, 161, 54925, 54926. Somente essas. 
+                </li>
+            </ul>
+            <div class="img106">
+                <img src="img6.png" alt="" width="65%" height="65%">
+            </div>
+            <ul>
+                <li>
+                  Agora, vamos “Permitir a conexão”. 
+                </li>
+            </ul>
+            <div class="img107">
+                <img src="img7.png" alt="" width="65%" height="65%">
+            </div>
+            <ul>
+                <li>
+                  Quando a regra se aplica? Vamos selecionar em todos os casos. 
+                </li>
+            </ul>
+            <div class="img108">
+                <img src="img8.png" alt="" width="65%" height="65%">
+            </div>
+            <ul>
+                <li>
+                  Coloque o nome da Regra. Por padrão “ScannerBrother”. E não precisa da descrição. Feito, clique em concluir. 
+                </li>
+            </ul>
+            <div class="img109">
+                <img src="img9.png" alt="" width="65%" height="65%">
+            </div>
+            <ul>
+                <li>
+                  4ºPasso: Liberando Borda.
+                  Clique em “Propriedades”. 
+                </li>
+            </ul>
+            <div class="img110">
+                <img src="img10.png" alt="" width="65%" height="65%">
+            </div>
+            <ul>
+                <li>
+                  Depois vá na aba “Avançado". 
+                </li>
+            </ul>
+            <div class="img111">
+                <img src="img11.png" alt="" width="65%" height="65%">
+            </div>
+            <ul>
+                <li>
+                  Agora em selecione “Permitir percurso de borda”. 
+                </li>
+            </ul>
+            <div class="img112">
+                <img src="img12.png" alt="" width="65%" height="65%">
+            </div>
+            <ul>
+                <li>
+                  E está feito. Agora já temos a regra criada, e comunicação com scanner. <br>
+                  Vamos verificar se está certo. <br>
+
+                 <Strong>5º Passo:</Strong>Verificando comunicação. 
+                  No menu iniciar, procure o “Brother Utilities”. 
+                </li>
+            </ul>
+            <div class="img113">
+                <img src="img13.png" alt="" width="65%" height="65%">
+            </div>
+            <ul>
+                <li>
+                  Agora clique em “Scanners e Câmeras”. 
+                </li>
+            </ul>
+            <div class="img114">
+                <img src="img14.png" alt="" width="65%" height="65%">
+            </div>
+            <ul>
+                <li>
+                  Agora que está visualizando as scanner instaladas, selecione a correta e clique em “Propriedades”. 
+                </li>
+            </ul>
+            <div class="img114">
+                <img src="img15.png" alt="" width="65%" height="65%">
+            </div>
+            <ul>
+                <li>
+                  Nas propriedades, vá na aba “Botão Escanar para” e no campo aberto digite o nome que você quer que apareça na Impressora, pode ser nome da pessoa ou nome da máquina. 
+                </li>
+            </ul>
+            <div class="img115">
+                <img src="img16.png" alt="" width="65%" height="65%">
+            </div>
+            <ul>
+                <li>
+                  Feito isso, vá para a aba “Geral” e clique em “Testar Scanner”.  
+                </li>
+            </ul>
+            <div class="img116">
+                <img src="img17.png" alt="" width="65%" height="65%">
+            </div>
+            <ul>
+                <li>
+                  Caso esteja tudo certo, apresentará a seguinte mensagem: 
+                </li>
+            </ul>
+            <div class="img117">
+                <img src="img18.png" alt="" width="65%" height="65%">
+            </div>
+            <ul>
+                <li>
+                  É assim que resolvemos problema de comunicação e fazemos a configuração da scanner. 
+                </li>
+            </ul>
+</div>
+
+<script  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"  crossorigin="anonymous"></script>
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"  integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"  crossorigin="anonymous"></script>
+<script  src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"  integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"  crossorigin="anonymous"></script>
+
+
+</body>
+</html>
